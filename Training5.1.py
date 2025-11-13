@@ -137,7 +137,7 @@ def comprovar_negatius ():
         print("No hi ha cap negatiu.")
 
 while (True):
-    print("\nTria una opció:")
+    print("Tria una opció:")
     print("1. Hola Món")
     print("2. Calcular àrea del quadrat")
     print("3. Calculadora bàsica")
@@ -152,7 +152,6 @@ while (True):
     print("S. Sortir")
 
     x = input("Introdueix el número de l'opció desitjada: ")
-
 
     match x:
         case "1":
