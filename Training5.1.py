@@ -136,6 +136,8 @@ def comprovar_negatius ():
     else:
         print("No hi ha cap negatiu.")
 
+import time
+
 while (True):
     print("Tria una opció:")
     print("1. Hola Món")
@@ -181,3 +183,4 @@ while (True):
             break
         case _:
             print("Fica una opció disponible.")
+    time.sleep(5)
